@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="64424" started-at="2019-12-14T23:00:18 CET" finished-at="2019-12-14T23:01:22 CET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="64424" started-at="2019-12-14T23:00:18 CET" finished-at="2019-12-14T23:01:22 CET">
+      <class name="tests.TravelsCustomerTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.TravelsCustomerTest@627551fb]" name="setup" is-config="true" duration-ms="4339" started-at="2019-12-14T23:00:18 CET" finished-at="2019-12-14T23:00:22 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="basicLogin()[pri:0, instance:tests.TravelsCustomerTest@627551fb]" name="basicLogin" is-config="true" duration-ms="7181" started-at="2019-12-14T23:00:22 CET" depends-on-methods="tests.BasicTest.setup" finished-at="2019-12-14T23:00:29 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicLogin -->
+        <test-method status="PASS" signature="updateCustomerTest()[pri:0, instance:tests.TravelsCustomerTest@627551fb]" name="updateCustomerTest" duration-ms="50726" started-at="2019-12-14T23:00:30 CET" finished-at="2019-12-14T23:01:20 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCustomerTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:tests.TravelsCustomerTest@627551fb]" name="quit" is-config="true" duration-ms="2120" started-at="2019-12-14T23:01:20 CET" finished-at="2019-12-14T23:01:22 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.TravelsCustomerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
